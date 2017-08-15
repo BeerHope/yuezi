@@ -1,0 +1,108 @@
+/*复位样式*/
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+hr,
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+#header {
+  height: 3rem;
+  padding: 0 0.5rem;
+  font-size: 0;
+}
+#header .hl_logo {
+  width: 10rem;
+  height: 100%;
+  float: left;
+}
+#header .hl_logo img {
+  width: 100%;
+  height: 100%;
+  line-height: 3rem;
+}
+#header .hr_logo {
+  width: 1.5rem;
+  height: 100%;
+  float: right;
+}
+#header .hr_logo img {
+  width: 100%;
+  height: 100%;
+  line-height: 3rem;
+}
+#banner .section {
+  height: 10rem;
+}
+#banner .section li {
+  font-size: 0;
+}
+#banner .section li img {
+  width: 100%;
+  height: 100%;
+}
+#banner .ban_nav {
+  padding: 0 0.5rem;
+}
+#banner .ban_nav li {
+  width: 3.7rem;
+  height: 5rem;
+  float: left;
+  text-align: center;
+}
+#banner .ban_nav li img {
+  width: 2rem;
+  height: 2rem;
+}
+#banner .ban_nav li p {
+  font-size: 0.6rem;
+  height: 0.62rem;
+  width: 100%;
+  line-height: 0.62rem;
+  margin-top: 0.5rem;
+}
+#banner .recommend {
+  text-align: center;
+}
+#banner .recommend a {
+  display: inline-block;
+  width: 4rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+  font-size: 0.55rem;
+  color: #fff;
+  background: #ee8fb3;
+}
+#banner .recommend a:last-child {
+  background: #74c5be;
+  margin-left: 1.2rem;
+}
