@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body,
+html {
+  font-size: 20px;
+  font-family: "Microsoft Yahei";
+}
+.main {
+  text-align: center;
+  padding: 0.3rem 0.6rem;
+}
+.main h1 {
+  font-size: 1rem;
+  color: #585757;
+}
+.main h3 {
+  font-size: 0.7rem;
+  color: #585757;
+  font-weight: 400;
+}
+.main .title {
+  padding: 1rem 0;
+}
+.main p {
+  color: #787878;
+  font-size: 0.65rem;
+  line-height: 1.2rem;
+}
+.main p + p {
+  margin-top: 0.5rem;
+}
+.main .content {
+  padding: 0.6rem 0;
+}
+nav {
+  height: 3rem;
+}
+nav span {
+  color: #5bc0de;
+  font-size: 1.5rem;
+  display: block;
+  width: 1.5rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  float: left;
+  padding-left: 0.3rem;
+}
+nav .logo {
+  display: block;
+  width: 7.85rem;
+  float: left;
+  margin: 0.2rem 2.8rem;
+  font-weight: 900;
+}
+nav .menu {
+  width: 2.45rem;
+  height: 3rem;
+  display: block;
+  float: right;
+  padding-right: 0.3rem;
+}
+.carousel {
+  height: 10rem;
+  background: #cdcdcd;
+}
+.page01 img {
+  width: 100%;
+  vertical-align: middle;
+}
+.page01 .content {
+  text-align: justify;
+  text-indent: 1.3rem;
+}
+.page02 .content {
+  color: #787878;
+  text-align: justify;
+  font-size: 0.65rem;
+  line-height: 1.2rem;
+}
+.page02 .content img {
+  width: 7.1rem;
+  display: inline-block;
+  float: left;
+  margin-right: 0.4rem;
+}
+.page03 {
+  background: url(../images/about/03.jpg);
+  min-height: 26.55rem;
+}
+.page03 .title h3 {
+  color: #787878;
+}
